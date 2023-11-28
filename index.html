@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>GPA Calculator</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                font-family: Arial, sans-serif;
+            }
+
+            h1 {
+                padding: 100px;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .box {
+                margin-bottom: 10px;
+            }
+
+            input {
+                padding: 5px;
+                width: 100px;
+            }
+
+            #totalGPA {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>TOTAL GPA BY HUUPHUC</h1>
+        <div class="container">
+            <!-- Input boxes for 8 semesters -->
+
+            <div class="box">
+                <label for="semester1">Semester 1:</label>
+                <input type="number" id="semester1">
+            </div>
+
+            <div class="box">
+                <label for="semester2">Semester 2:</label>
+                <input type="number" id="semester2">
+            </div>
+
+            <div class="box">
+                <label for="semester3">Semester 3:</label>
+                <input type="number" id="semester3">
+            </div>
+            
+            <div class="box">
+                <label for="semester4">Semester 4:</label>
+                <input type="number" id="semester4">
+            </div>
+
+            <div class="box">
+                <label for="semester5">Semester 5:</label>
+                <input type="number" id="semester5">
+            </div>
+
+            <div class="box">
+                <label for="semester6">Semester 6:</label>
+                <input type="number" id="semester6">
+            </div>
+
+            <div class="box">
+                <label for="semester7">Semester 7:</label>
+                <input type="number" id="semester7">
+            </div>
+
+            <div class="box">
+                <label for="semester8">Semester 8:</label>
+                <input type="number" id="semester8">
+            </div>
+
+            <div class="box">
+                <label for="semester9">Semester 9:</label>
+                <input type="number" id="semester9">
+            </div>
+
+            <!-- Input box for total GPA -->
+            <div class="box">
+                <label for="totalGPA">Total GPA:</label>
+                <input type="number" id="totalGPA" readonly>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
